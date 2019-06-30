@@ -1,0 +1,88 @@
+body {
+	height: 3000px;
+}
+.w {
+	color: #666;
+}
+.header {
+	height: 82px;
+	border-bottom: 2px solid #B1191A;
+}
+.logo {
+	height: 82px;
+	width: 175px;
+	background: url(../img/logo.png) no-repeat 0 center;	
+}
+.registerarea {
+	margin-top: 20px;
+	height: 520px;
+	border: 1px solid #ccc;
+}
+.hd {
+	padding: 0 10px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+	background-color: #ECECEC;
+}
+.hd h3 {
+	font-weight: 400;
+	font-size: 18px;
+}
+.hd span {
+	font-size: 14px;
+}
+.hd span a {
+	color: #C81623;
+}
+.content {
+	font-size: 12px;
+}
+.tab {
+	width: 600px;
+	height: 400px;
+	margin: auto;
+	border: 1px solid #000;
+}
+.tab li {
+	margin-bottom: 15px;
+}
+label {
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: right;
+}
+input {
+	margin: 0 10px;
+	outline: none;
+	height: 34px;
+	width: 238px;
+	border: 1px solid #ccc;
+}
+.num {
+	margin-top: 40px;
+}
+.num em {
+	color: #DF3033;
+}
+.error,
+.right {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.error {
+	background: url(../img/error.png) no-repeat;
+}
+.right {
+	background: url(../img/success.png) no-repeat;	
+}
+.psw em {
+	color: #40B83F;
+}
+.progress {
+	padding-left: 250px;
+}
